@@ -1,28 +1,31 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     font-family:'Roboto', sans-serif;
-    color:#1f2927
-}
-.section-1{
-    background-color:#012a42;
+    color:#1f2927;
 }
 header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    background-color: #1f2927;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 16px 100px;
 }
 .logo{
     font-size: 24px;
-    color:#f9fafb;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
 }
-nav ul{
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+header nav a{
     font-size: 18px;
-    color:#e5e7eb;
-    text-decoration:none;
+    color: white;
+    text-decoration: none;
 }
