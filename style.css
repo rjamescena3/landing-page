@@ -161,3 +161,11 @@ header nav a{
   font-weight: bold;
   white-space: nowrap;
 }
+
+footer {
+  background-color: #1F2927;
+  color: #F9FAFB;            
+  text-align: center;         
+  padding: 32px 0;           
+  font-size: 14px;
+}
