@@ -102,3 +102,23 @@ header nav a{
     font-size: 14px;
     margin-top: 4px;
 }
+.quote-section{
+    background-color: lightgray;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text{
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2927;
+    line-height: 1.2;
+}
+.quote-author{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2927;
+    text-align: right;
+    margin-top: 8px;
+}
