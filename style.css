@@ -122,3 +122,42 @@ header nav a{
     text-align: right;
     margin-top: 8px;
 }
+.cta-section {
+  padding: 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-banner {
+  background-color: #3882F6;
+  width: 100%;
+  max-width: 900px;
+  padding: 48px 80px;
+  border-radius: 12px;   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  color: #F9FAFB;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.cta-text p {
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+.cta-button {
+  color: #F9FAFB;
+  border: 2px solid #F9FAFB;
+  padding: 8px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
