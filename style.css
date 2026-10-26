@@ -8,7 +8,7 @@ body{
     color:#1f2927;
 }
 header{
-    background-color: #1f2927;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,8 +18,9 @@ header{
 }
 .logo{
 
-    color: white;
+    color:  #F9FAF8;
     font-weight: bold;
+    font-size: 24px;
 }
 header nav ul{
     display: flex;
@@ -28,16 +29,17 @@ header nav ul{
 }
 header nav a{
 
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
 }
 .hero{
-    background-color: #1f2927;
+    background-color: #1F2937;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     padding: 50px;
-    color: white;
+
     flex-direction: row;
     
 }
@@ -47,12 +49,16 @@ header nav a{
 
 }
 .hero-title{
-    font-size: 38px;
+    font-size: 48px;
     font-weight: bold;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 .hero-text{
 
     flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .button{
     background-color: rgb(4, 133, 255);
@@ -81,8 +87,10 @@ header nav a{
     text-align: center;
 }
 .info-section h2{
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 35px;
+    color: #1F2937;
+    font-weight: 900;
 }
 .cards-container{
     display: flex;
@@ -107,22 +115,24 @@ header nav a{
     margin-top: 4px;
 }
 .quote-section{
-    background-color: lightgray;
+    background-color: #E5E7EB;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 .quote-text{
-    font-size: 25px;
+    font-size: 36px;
     font-style: italic;
     margin-top: 30px;
     padding-top: 50px;
     width: 600px;
+    color: #1F2937;
+    font-weight: 300;
 }
 .quote-author{
 
     font-weight: bold;
-
+    margin-top: 30px;
     text-align: right;
     padding-bottom: 50px;
     margin-bottom: 30px;
@@ -144,7 +154,7 @@ header nav a{
 width: 950px;
   height: 140px;
   flex-direction: row;
-  
+
 }
 
 .cta-text h3 {
@@ -172,7 +182,7 @@ width: 950px;
 }
 
 footer {
-  background-color: #1F2927;
+  background-color: #1F2937;
   color: white;            
   text-align: center;         
   padding: 25px 0px;
