@@ -171,9 +171,113 @@ blockquote {
 }
 
 /* Footer */
-footer{
+footer {
     background-color: #1F2937;
-    color: white;
+
+    color: #E5E7EB;
+
     text-align: center;
-    padding: 25px;
+
+    padding: 30px;
+}
+
+/* @media-query responsiveness */
+
+@media (max-width:1000px){
+    .info-container{
+        gap: 26px;
+    }
+}
+@media (max-width:958px){
+         .info-container{
+            gap:25px;
+         }
+         .logo{
+            font-size: 22px;
+         }
+         ul{
+            gap: 15px;
+         }
+         a{
+            font-size: 16px;
+         }
+         .hero-content h1 {
+           font-size: 46px;
+         }
+         .hero-content p {
+         font-size: 16px;
+         }
+         button {
+         padding: 8px 22px;
+         }
+         .hero-image {
+        min-height: 218px;
+        }
+        blockquote {
+        font-size: 34px;
+        }
+}
+
+@media (max-width:955px){
+        .info-container{
+            gap:24px;
+         }
+}
+@media (max-width:952px){
+        .info-container{
+            gap:23px;
+        }
+}
+@media (max-width:949px){
+        .info-container{
+            gap: 22px;
+        }        
+}
+
+@media (max-width:946px){
+        .info-container{
+            gap: 21px;
+        }        
+}
+
+@media (max-width:943px){
+        .info-container{
+            gap: 20px;
+        }        
+}
+
+@media (max-width:940px){
+        .info-container{
+            gap: 19px;
+        }        
+}
+
+@media (max-width:937px){
+        .info-container{
+            gap: 18px;
+        }        
+}
+
+@media (max-width:934px){
+        .info-container{
+            gap: 17px;
+        }        
+}
+
+@media (max-width:931px){
+        .info-container{
+            gap: 16px;
+        }        
+}
+
+@media (max-width:928px){
+        .info-container{
+            gap: 15px;
+        }        
+}
+
+@media (max-width:925px){
+        .info-container{
+            gap: 14px;
+        }        
 }
